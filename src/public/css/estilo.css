@@ -1,0 +1,157 @@
+.nav-a{
+    color: white !important;
+}
+
+.nav-a:hover{
+    color: rgb(175, 167, 167)!important;
+}
+
+.icon-nav{
+    margin-right: 5px;
+}
+
+.icon-nav:hover{
+    color: rgb(175, 167, 167) !important;
+}
+
+.container-index{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-texto-index{
+    text-align: center;
+}
+
+.img-index{
+    max-width: 400px;
+    margin: 2rem;
+}
+
+.icon-nav-optios{
+    background-color: white !important;
+}
+
+.container-sobremi-principal{
+    margin-top: 5rem;
+    text-align: justify;
+}
+
+.icon-sobre-mi{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.info-sobremi{
+    padding: 15px;
+}
+
+.icon-pasatiempos{
+    padding-top: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-right: 10px;    
+}
+
+.icon-subtitulo{
+    padding-left: 10px;
+    margin-right: 10px; 
+}
+
+.text-subtitulo{
+    color: #0a5bd6;
+}
+
+.text-okok{
+    margin-top: 3rem;
+}
+
+.divs{
+    background-color: #0a5bd6;
+    height: 1px;
+    width: 100%;
+}
+
+.videojuego-text{
+    padding:15px;
+}
+
+.habilidades{
+    color: #0a5bd6;
+}
+.text-habilidades{
+    
+    color: #0a5bd6;
+}
+.container-habilidad{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.icon-habilidad{
+    margin: 1rem;
+    font-size: 4rem;
+}
+.habilidad{
+    align-items: center;
+    text-align: center;
+}
+
+.fa-node-js:hover{
+    color: rgb(34, 226, 28);
+}
+
+.fa-js:hover{
+    color: #ffee04;
+}
+
+
+.fa-python:hover{
+    color: #0246ff;
+}
+
+.fa-java:hover{
+    color: #ff0202;
+}
+
+.fa-css3-alt:hover{
+    color: #0400ff;
+}
+
+.fa-html5:hover{
+    color: #ff3300;
+}
+
+.card-title{
+    color: #0a5bd6;
+}
+
+.container-download{
+    margin-bottom: 2rem;
+}
+
+.fa-download{
+    color: #0a5bd6;
+}
+
+.button-descarga{
+    border-color: #0a5bd6;
+    border-style: solid;
+    color: #0a5bd6;
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.button-descarga:hover{
+    background-color: #0a5bd6;
+    color: #fff;
+}

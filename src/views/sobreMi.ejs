@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/iconosFonts.ejs')%>
+    <%- include('partials/bootstrap.ejs')%>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+</head>
+<body>
+    <%- include('partials/navegacion.ejs')%>
+    <div class="container-fluid container-sobremi-principal">
+        <h1 class=" text-primary fw-bold"><i class="icon-sobre-mi fa-solid fa-user"></i>SOBRE MI</h1>
+        <p class="info-sobremi fw-semibold">Mi nombre es Javier David Muñoz Diaz, soy un aprendiz de desarrollo de software, mi meta es aprender nuevas tecnologías, la que más me llama la atención es node js, aunque no estaría de más aprender php y react. Mi objetivo es convertirme en un programador full stack, sé que llevara un buen tiempo pero sé que con perseverancia y diciplina lo lograre.</p>
+        <div class="divs"></div>
+        <h2 class=" text-primary fw-bold fs-1"><i class=" fa-solid fa-clock icon-pasatiempos"></i>PASA TIEMPOS</h2>
+        <h3 class="text-subtitulo text-okok fs-2"><i class="fa-solid fa-gamepad icon-subtitulo"></i>Videojuegos</h3>
+        <p class="videojuego-text fw-semibold">Me gusta usar los videojuegos como principal herramienta de entretenimiento, con ellos me desestreso un poco luego de escribir código por un buen rato.</p>
+        <h3 class="text-subtitulo fs-2"><i class="fa-solid fa-glasses fw-bold icon-subtitulo"></i>Ver series</h3>
+        <p class="videojuego-text fw-semibold">Las series las tomo como herramienta secundaria, cuando me aburro de tanto estar sentado viendo la pantalla de mi pc decido sentarme en mi sofá y ver tranquilamente una serie en mi TV.</p> 
+        <h3 class="text-subtitulo fs-2"><i class="fa-solid fa-dumbbell icon-subtitulo"></i>Hacer ejercicio</h3>
+        <p class="videojuego-text fw-semibold">Hago ejercicio porque sé que como programador debo estirarme un poco para que el sedentarismo no haga daños en mi a largo plazo, también disfruto hacer ejercicio al aire libre, despeja mi mente de pantallas y de código lo cual es muy bueno para no frustrarme.</p>       
+        <div class="divs"></div>
+        <h3 class="text-subtitulo fs-2" style="margin-top: 20px;"><i class="fa-solid fa-briefcase icon-subtitulo"></i></i>Curriculum</h3>
+        <p class="videojuego-text fw-semibold">Te invito a descargar mi curriculum, así podras saber mucho mas de mi.</p>
+        <div class="container-download"><i class="fa-solid fa-download fs-2 icon-subtitulo"></i><a download="cv-javier" href="/archivos/cv-javier.pdf"><button class="button-descarga">Descargar</button></a></div>
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>
