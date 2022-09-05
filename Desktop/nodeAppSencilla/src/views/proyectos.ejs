@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/iconosFonts.ejs')%>
+    <%- include('partials/bootstrap.ejs')%>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+</head>
+<body>
+    <%- include('partials/navegacion.ejs')%>
+    <div class="container-fluid container-habilidades " style="margin-top: 5rem;"">
+        <h2 class="text-primary fs-1 titulo-habilidades"><i class="fa-solid fa-screwdriver-wrench icon-subtitulo"></i>Proyectos</h2>    
+        <p class="info-sobremi fw-semibold">En cada una de estas tarjetas podras observar proyectos de mi autoria.</p>
+        <div class="container-habilidad">
+            <div class="card" style="width: 18rem;">
+                <img src="img/Screenshot_7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pagina de presentacion.</h5>
+                  <p class="fw-semibold card-text">En este proyecto se puede observar el uso de las tecnologias node.js, css, bootstrap, JavaScript y html</p>
+                  <a href="https://github.com/Javierdiaz1386/pagina-javier-1" target="_blank" class="btn btn-primary">Repositorio</a>
+                  <a href="https://cvjavier.herokuapp.com/proyectos" target="_blank" class="btn btn-primary">Resultado</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/Screenshot_52.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lorem </h5>
+                  <p class="card-text fw-semibold">Web creada con Django, Python y uso d eun CRUD con potsgresql </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+</body>
+</html>
